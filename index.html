@@ -1,0 +1,244 @@
+<!-- 基本代码骨架可以通过 ！+ Tab填充 -->
+<!-- 文档声明: html5的文档 -->
+<!DOCTYPE html>
+<!-- 当前网页语言为英文,默认不指定是中文 :lang="zh"> -->
+ <!-- 一般不用指定成en语言 -->
+<html lang="zh">
+<head>
+    <!-- 指定网页的编码格式 -->
+    <meta charset="UTF-8">
+    <!-- 在移动设备浏览网页时，网页不缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 在IE浏览器浏览网页时，使用ie的最高版本 -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- 网页标题 -->
+    <title>This is a powerful yellow website</title>
+    <script>
+        var iTip = "确定要进入吗...";
+        alert(iTip);
+        var iTime = [1,2,3];
+        for(var index = 0;index<iTime.length;index++){
+            var vAlue = iTime[index];
+            alert(vAlue);
+        }
+    </script>
+    <style>
+        .hhh{
+            /* 设置文字颜色 */
+            color: rgb(220, 115, 115);
+            /* 设置文字大小 */
+            font-size: 30px;
+            /* 设置文字是否加粗 */
+            font-weight: bold;
+            font-family: "Microsoft Yahei";
+            background: pink;
+            /* 设置下划线 overline顶部线  line-through中部线 underline下划线 */
+            /* text-decoration: underline; */
+            text-decoration: underline;
+            /* text-decoration: overline; */
+            /* 设置行高 可以让文字垂直方向居中 */
+            line-height: 100px;
+            /* 设置水平方向的对象方式 right(右对齐) center(居中) left(左对齐) */
+            text-align: center;
+            /* 文本缩进 */
+            text-indent: 30px;
+        }
+
+        .h2{
+            /* 设置文字颜色 */
+            color: pink;
+            /* 设置文字大小 */
+            font-size: 30px;
+            /* 设置文字是否加粗 */
+            font-weight: bold;
+            font-family: "Microsoft Yahei";
+            background: rgb(205, 179, 183);
+            /* 设置下划线 overline顶部线  line-through中部线 underline下划线 */
+            /* text-decoration: underline; */
+            /* text-decoration: underline; */
+            /* text-decoration: overline; */
+            /* 设置行高 可以让文字垂直方向居中 */
+            line-height: 80px;
+            /* 设置水平方向的对象方式 right(右对齐) center(居中) left(左对齐) */
+            text-align: center;
+            /* 文本缩进 */
+            text-indent: 30px;
+        }
+
+        .www{
+            color: palevioletred;
+            text-align: center;
+        }
+        .tip{
+              /* 设置文字颜色 */
+              color: rgb(193, 98, 98);
+            /* 设置文字大小 */
+            font-size: 30px;
+            /* 设置文字是否加粗 */
+            font-weight: bold;
+            font-family: "Microsoft Yahei";
+            background: rgb(228, 146, 207);
+            /* 设置下划线 overline顶部线  line-through中部线 underline下划线 */
+            /* text-decoration: underline; */
+            text-decoration: underline;
+            /* text-decoration: overline; */
+            /* 设置行高 可以让文字垂直方向居中 */
+            line-height: 200px;
+            /* 设置水平方向的对象方式 right(右对齐) center(居中) left(左对齐) */
+            text-align: center;
+            /* 文本缩进 */
+            text-indent: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 注释的快捷键与pycharm一样，使用ctrl+/-->
+    Welcome aboard this flight.郑重声明:本网站立足于美利坚合众国，声明：如遭到恶意攻击，必定重拳回击！！！
+    <!-- 1.成对出现的标签 -->
+    <h1 class="hhh">尊贵的王硕士，欢迎飞机</h1>
+    <h2 class="h2">尊贵的王硕士，感谢再次乘坐本航班，请你放松心情，准备开始</h2>
+    <h6 class="www">欢迎登机！！！</h6>
+    <div>检票完成</div>
+    <p>准备好了吗？下滑开始飞机</p>
+
+    <!--2. 单个出现的标签  -->
+    <!-- hr水平分割线  -->
+     <hr>
+     <img src="https://haowallpaper.com/link/common/file/previewFileImg/15493002280014144" alt="图片1">
+     <!-- br 换行显示 -->
+     <br>
+     <img src="https://haowallpaper.com/link/common/file/previewFileImg/15730961105981760" alt="图片2">
+     <img src="https://haowallpaper.com/link/common/file/previewFileImg/15466827385573696" alt="图片3">
+     <hr>
+    <!-- 3.带属性的标签 src、alt、href 等都是属性(alt在图片加载失败的时候可以显示出队图片的描述)-->
+      <img src="https://haowallpaper.com/link/common/file/previewFileImg/15798757782753600" alt="图片4">
+      <br>
+      <a href="https://book.lxjhigzgg.com/category/jrxw1/8/">:->吃瓜网</a>
+    <!-- 4.标签的嵌套 -->
+     <!-- div 容器标签 -->
+     <div>
+        <img src="https://haowallpaper.com/link/common/file/previewFileImg/15349920451366208" alt="图片5">
+        <!-- <a href=" "> 超链接标签 -->
+        <br>
+        <a href="https://haowallpaper.com/homeViewLook/15349932438490432">图片网</a>
+     </div>
+     <!-- 标签可以嵌套 -->
+      <div>
+            <p>广告位</p>
+            <p>广告位</p>
+            <p>广告位</p>
+            <img src="tu1.png" alt="图片6">
+      </div>
+     <!-- 标签不区分大小写，但是推荐使用小写 -->
+     <!-- 根据标签的书写形式，标签分为双标签(闭合标签)和单独标签(空标签) -->
+    
+    <hr>
+    <br>
+    <!-- 列表标签可以分为有序列表标签和无序列表标签 -->
+      <!-- 无序列表标签 -->
+       <ul>
+            <li>广告位1</li>
+            <li>广告位2</li>
+            <li>广告位3</li>
+            <li>广告位4</li>
+       </ul>
+       <hr>
+
+       <ol>       
+        <li><a href="https://book.lxjhigzgg.com/archives/82974/">逼操操肿了！四川航空空姐 周娅菲 刚下飞机就和炮友酒店开房 和炮友开黄腔 这就是你的女朋友吗？</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/89144/">四川西南航空学院 王鹏博 被女友写下多页pdf控诉其出轨劈腿 甚至还偷拍二人的性爱视频</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/88985/">推特巨乳肥臀女神 姚漫川 淫荡福利照曝光 丰满的肉体堪称行走的炮架子</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/90105/">你真的会打飞机吗？打飞机进阶教学小仙女现场教学 瓜友们学起来！教你如何达到高潮？</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/83094/">湖南郴州金海学校女老师 陈梦婷 违背道德 勾引学生在家和她操逼 家长曝光性爱视频</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/74509/">廊坊文安幼教女老师 杨甜 自拍抠逼揉奶视频 给男友打飞机 结果惨遭男友背刺曝光</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/83773/">贵州大学大一清纯学生妹 王译可 被网调曝光 随便发点红包就能骗到妹子的裸照和自慰视频了！</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/38481/">贵州大学矿业学院渣男 穆航 P腿于贵州大学汉语言文学的 文秀云 被相恋5年女友曝光！</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/32581/">贵州大学 学生情侣在南饭堂2楼大庭广众之下不雅行为被曝光 在校园疯传</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/86621/">广州大学校花婕婕子 优秀的服装设计师婕婕子疯狂打call 完美露脸露穴 完美女友型</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/33899/">玩偶姐姐HongKongDoll合集完整版【持续追踪更新贴】57个</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/36895/">Lisa疯马秀合集！【持续追踪更新贴】LISA疯马秀最终真的脱了，Lisa疯马秀AI换脸，Lisa疯马秀全裸</a></li>
+        <li><a href="https://book.lxjhigzgg.com/archives/89181/">抖音男网红 四颗福星 被曝光家暴丑闻 前女友也控诉他逼迫自己下跪 王烁抓我的头匡匡撞墙</a></li>
+       </ol>
+
+       <hr>
+       <!-- border-collapse: collapse; 表示表格的边线合并 -->
+       <table style="border: 2px solid black;border-collapse: collapse;">
+        <tr>
+            <th style="border: 1px solid black;">吃瓜网</th>
+            <th style="border: 1px solid black;">看图网</th>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black;"><a href="https://book.lxjhigzgg.com">点击进入</a></td>
+            <td style="border: 1px solid black;"><a href="https://haowallpaper.com">点击进入</a></td>
+        </tr>
+       </table>
+
+
+       <hr>
+       <!-- 把数据提交给web服务器需要使用表单标签: <from> -->
+        <form action="https://book.lxjhigzgg.com/search/" method="post">
+            <!-- for 根据id名给指定的id的标签设置光标(没啥用，了解就行)-->
+            <label for="引擎">搜索引擎</label>
+            <input type="text" id="引擎" name="username">
+        <br>
+            <label for="口令">搜索口令</label>
+            <input type="password" id="口令" name="password">
+        <p>
+            <label>检索速度:</label>
+            <input type="radio" name="speed" value="0">精准(慢)
+            <input type="radio" name="speed" value="1">粗略(快)
+        </p>
+        <p>
+            <label>检索路径:</label>
+            <input type="checkbox" name="path" value="91pron">91pron
+            <input type="checkbox" name="path" value="推特">推特
+            <input type="checkbox" name="path" value="吃瓜网">吃瓜网
+        </p>
+        <p>
+            <label>相关封面(选填)</label>
+            <input type="file" name="pic">
+        </p>
+        <p>
+            <label>相关描述</label>
+            <textarea name="desc"></textarea>
+        </p>
+        <p>
+            <label>标签</label>
+            <select name="标签">
+                <option value="女神">女神</option>
+                <option value="御姐">御姐</option>
+                <option value="网红">网红</option>
+                <option value="极品">极品</option>
+                <option value="萝莉">萝莉</option>
+                <option value="角色扮演">角色扮演</option>
+                <option value="剧情">剧情</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+        </p>
+        <!-- get 和 post 方式提交表单数据都是以http协议的方式提交数据给web服务器的 -->
+        </form>
+        <p class="tip">
+            建议跳转后再网站真实内核进行搜索
+        </p>
+        <h4 style="color: rgb(216, 105, 228);">↓↓↓备用链接，点击跳转↓↓↓</h4>
+       <table style="border: 2px solid palevioletred;border-collapse: collapse;">
+        <tr >
+            <th style="color: pink; border: 1px solid pink;">航班1</th>
+            <th style="color: pink; border: 1px solid pink;">航班2</th>
+            <th style="color: pink; border: 1px solid pink;">航班3</th>
+            <th style="color: pink; border: 1px solid pink;">航班4</th>
+            <th style="color: pink; border: 1px solid pink;">航班5(推荐)</th>
+        </tr>
+        <tr>
+            <th style="border: 1px solid pink;"><a style="color: blueviolet;" href="https://1mtim.lol/">点击换乘航班</a></th>
+            <th style="border: 1px solid pink;"><a style="color: blueviolet;" href="http://www.ienjoyjob.com/fankui/mtcmwhyxgsmfbpwiyqs/2024090879277162.html?entryScene=zhida_05_001&jump_from=1_13_18_00">点击换乘航班</a></th>
+            <th style="border: 1px solid pink;"><a style="color: blueviolet;" href="https://s9ex.taimei-l713.cc/">点击换乘航班</a></th>
+            <th style="border: 1px solid pink;"><a style="color: blueviolet;" href="https://7.tt182of.cc:8888/">点击换乘航班</a></th>
+            <th style="border: 1px solid pink;"><a style="color: blueviolet;" href="https://z8bo.t3041u4.vip:9527/search_1?keyword=YtT+Mae4qf3mAwl3Y45K7Q==">点击换乘航班</a></th>
+        </tr>
+       </table> 
+</body>
+</html>
